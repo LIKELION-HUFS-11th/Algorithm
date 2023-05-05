@@ -1,33 +1,35 @@
-# 01. 모험가 길드
-N = int(input())
-arr = list(map(int, input().split()))
+### 01. 모험가 길드
 
-arr.sort(reverse = True)
+N = int(input())  # 모험가의 수
+arr = list(map(int, input().split()))  # 공포도 배열
 
-cnt = 0
-idx = arr[0]
+arr.sort(reverse = True)  # 내림차순 정렬
 
+cnt = 0  # 그룹 수의 최댓값
+fear = arr[0]  # 배열에서 가장 큰 값
+
+# 공포도를 내림차순 정렬 -> 가장 큰 공포도만큼 arr 리스트에서 값 제거
 while True:
-    if idx <= len(arr):
-        arr = arr[idx:]
-        cnt += 1
+    if fear <= len(arr):  # 공포도가 배열의 수보다 작거나 같을 때
+        arr = arr[fear:]  # 값 제거
+        cnt += 1  # 그룹 수 증가시키기
     else: break
     
     if len(arr) == 0:
         break
         
-    idx = arr[0]
+    fear = arr[0]
     
 print(cnt)
 
 
-# 02. 곱하기 혹은 더하기
+### 02. 곱하기 혹은 더하기
 S = input()
 arr = []
 
 for i in range(len(S)):
-    if int(S[i]) != 0: # 0일 때 덧셈이 필요한데 0의 덧셈은 결과에 영향을 주지 않으므로 0 포함하지 않음
-        arr.append(int(S[i]))
+    if int(S[i]) != 0:  # 0일 때 덧셈이 필요한데 0의 덧셈은 결과에 영향을 주지 않으므로 0 포함하지 않음
+        arr.append(int(S[i]))  #
     
 result = 1
 for num in arr:
@@ -63,6 +65,22 @@ for s in arr2:
         cnt2 += 1
 
 print(min(cnt1, cnt2))
+
+
+# 04. 만들 수 없는 금액
+N = int(input())
+data = list(map(int, input().split()))
+data.sort()
+
+target = 1
+for x in data:
+    if target < x:
+        break
+    target += x
+    
+print(target)
+
+
 
 
 
