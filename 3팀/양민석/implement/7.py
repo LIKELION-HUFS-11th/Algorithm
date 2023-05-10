@@ -1,5 +1,5 @@
 # 입력
-n = input()
+n = int(input())
 
 # 함수들
 def is_lucky(s):
@@ -20,7 +20,7 @@ def is_lucky(s):
     return left_sum == right_sum
 
 # 설계
-if is_lucky(n):
+if is_lucky(str(n)):
     print('LUCKY')
 else:
     print('READY')
