@@ -1,4 +1,4 @@
-#string으로 입력받기
+#string으로 입력받기!
 n = input()
 
 
