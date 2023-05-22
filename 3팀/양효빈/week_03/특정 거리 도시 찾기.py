@@ -1,3 +1,4 @@
+# 모범답안 참고하여 이해
 from collections import deque
 
 n, m, k, x = map(int, input().split())
@@ -26,3 +27,4 @@ for i in range(1, n+1):
             
 if check == False:
     print(-1)
+  
