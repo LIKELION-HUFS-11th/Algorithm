@@ -13,7 +13,7 @@ triangle = [
 d = [
     [0] * n
     for _ in range(n)
-]
+]PendingDeprecationWarning
 
 d[0][0] = triangle[0][0]
 
