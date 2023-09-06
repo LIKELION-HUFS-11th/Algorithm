@@ -1,21 +1,31 @@
-# 클래스 선언
-class Number:
-    def __init__(self, element, index):
-        self.element, self.index = element, index
+# (x,y) 칸에 대해서
+#인접한 칸에 숫자 1이 3개 이상 있는지 확인
+# for x in range(n):
+#     for y in range(n):
+#         # 어느 방향인지 몰라도 상관 없기 때문에(시계 방향 생각 안 해도 됨)
+#         dxs, dys = [1,-1,0,0,], [0,0,1,-1]
 
-#변수 선언 및 입력
-# 수열의 길이
-n = int(input()) 
+#         for dx, dy in zip(dxs,dys):
+#             nx,ny = x+dy, y+dy
 
-# 수열을 오름차순 정렬했을 때 위치가 어느 위치로 이동하는지 출력
+#             cnt=0
+#             for dx,dy in zip(dxs,dys):
 
-elements = []
-for i in range(1, n+1):                       #     0 1 2 3 4 5 6
-    element = list(map(int, input().split())) #전: [3 1 6 2 7 30 1]
-elements.append(Number(element[i-1], i))
 
-# 정렬                                              0 1 2 3 4 5 6 
-elements.sort(key=lambda x: x.element)        #후: [1 1 2 3 6 7 30]
+# 
+x, y = 1,2 #현재 위치
+dir_num = 2 #북쪽
 
-#출력
-print(elements)
+dxs, dys = [0,1,-1,0], [1,0,0,-1]
+
+
+def in_range(x,y):
+    return 0<=x and x<n and 0<=y and y<n
+
+while keep_moving():
+    nx, ny = x+dxs[dir_num], y+dys[dir_num]
+    # 격차를 벗어났을 때 벽에 부딪치면
+    if not in_range(nx,ny):
+        dir_num = 3 - dir_num #현재 방향을 3에서 빼주면 됨
+    x, y = x+ dxs[dir_num], y+ dys[dir_num]
+
