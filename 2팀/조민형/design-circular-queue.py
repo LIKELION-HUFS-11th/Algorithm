@@ -2,47 +2,41 @@ class MyCircularQueue:
 
     def __init__(self, k: int):
         self.q = [None] * k
+        self.maxlen = k
+        self.p1 = 0  # front 포인터
+        self.p2 = 0  # Rear 포인터
 
     def enQueue(self, value: int) -> bool:
-        if isFull(self.q):
-            return False
+        if self.q[self.p2] is None:
+            self.q[self.p2] = value
+            self.p2 = (self.p2 + 1) % self.maxlen
+            return True
         else:
-            i = 0
-            while i < len(self.q):
-                if self.q[i] == None:
-                    self.q[i] == value
-                    return true
+            return False
 
     def deQueue(self) -> bool:
-        if isEmpty(self.q) == False:
-            i = 0
-            while i < len(self.q):
+        if self.q[self.p1] is not None:
+            self.q[self.p1] = None
+            self.p1 = (self.p1 + 1) % self.maxlen
+            return True
 
     def Front(self) -> int:
-        if ieEmpty(self.q) == True:
+        if self.q[self.p1] is None:
             return -1
         else:
-            return self.q[0]
+            return self.q[self.p1]
 
     def Rear(self) -> int:
+        if self.q[self.p2-1] is None:
+            return -1
+        else:
+            return self.q[self.p2-1]
 
     def isEmpty(self) -> bool:
-        isempty = True
-        for i in self.q:
-            if i == None:
-                isempty = True
-            else:
-                isempty = False
-        return isempty
+        return self.p1 == self.p2 and self.q[self.p1] is None
 
     def isFull(self) -> bool:
-        isfull = True
-        for i in self.q:
-            if i == None:
-                isfull = False
-            else:
-                isfull = True
-        return isfull
+        return self.p1 == self.p2 and self.q[self.p2] is not None
 
 
 # Your MyCircularQueue object will be instantiated and called as such:
