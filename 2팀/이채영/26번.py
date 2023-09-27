@@ -45,7 +45,7 @@ class MyCircularDeque:
 
 ###DriverCode
 dq = MyCircularDeque(10)
-for i in range(9): #포화상태를 생각하면 MAXQSIZE가 10일때 이게 최대
+for i in range(9):
     if i in range(9):
         if i % 2 == 0:
             dq.insertLast(i)
@@ -57,7 +57,7 @@ for _ in range(2):
     dq.deleteFront()
 for _ in range(3):
     dq.deleteLast()
-# dq.display() #여기 값이 자꾸 [1, 0, 2, 4]로 되는데 왜이러냐
+# dq.display() 
 
 for i in range(9,14):
     dq.insertFront(i)
