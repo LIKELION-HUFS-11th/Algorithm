@@ -1,9 +1,13 @@
-# 특정 원소가 속한 집합을 찾기
+'''
+[10-3] 개선된 서로소 집합 알고리즘 소스코드
+경로 압축(Path Compression) 기법을 적용하면 시간 복잡도 개선 가능
+    : find 함수를 재귀적으로 호출한 뒤에 부모 테이블값을 갱신하는 기법. (0808-1.py 에서 find 함수만 수정)
+'''
+
 def find_parent(parent, x):
-    # 루트 노드가 아니라면, 루트 노드를 찾을 때까지 재귀적으로 호출
     if parent[x] != x:
-        return find_parent(parent, parent[x])
-    return x
+        parent[x] = find_parent(parent, parent[x])
+    return parent[x]
 
 # 두 원소가 속한 집합을 합치기
 def union_parent(parent, a, b):
@@ -39,11 +43,11 @@ print('부모 테이블: ', end='')
 for i in range(1, v + 1):
     print(parent[i], end=' ')
 
-
 '''
-- find 함수가 비효율적으로 동작
-  최악의 경우 find 함수가 모든 노드를 다 확인하기 때문에 시간복잡도 O(V)
-
-- 노드의 개수가 V개이고 find 혹은 union 연산의 개수가 M개일 때,
-  전체 시간 복잡도는 O(VM)이 되어 비효율적임.
+(input)
+6 4
+1 4
+2 3
+2 4
+5 6
 '''
