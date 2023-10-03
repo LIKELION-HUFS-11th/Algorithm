@@ -28,6 +28,7 @@ class Solution:
 
             # 결과 노드를 다음 노드로 업데이트하고, 다음 노드가 있다면 최소 힙에 추가
             result = result.next
+
             if result.next:
                 heapq.heappush(heap, (result.next.val, index, result.next))
 
