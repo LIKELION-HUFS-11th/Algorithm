@@ -50,6 +50,7 @@ class MyHashMap:
                 self.table[index] = ListNode(
                 ) if nodes.next is None else nodes.next
                 return
+            
         prevnodes = nodes
         while nodes:
             if nodes.key == key:
