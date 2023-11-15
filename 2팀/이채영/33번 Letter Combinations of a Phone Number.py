@@ -26,7 +26,6 @@ class Solution(object):
         #순환함수를 매번 호출할때마다 변수값을 어떻게 조정하나 했는데 매개변수를 활용해 이렇게 하면 되더라!         
 
         # digits = "23" 예시에서
-        # dfs(0,"" > 1,"a" > 2,"ad" > 2,"ae" > 2,"af" > 3,)
         # path = a -> ad / ae / af / b -> bd / be / bf / c -> cd / ce / cf
 
         if not digits: #공백 입력시 예외처리
