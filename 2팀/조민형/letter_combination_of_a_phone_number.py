@@ -21,6 +21,7 @@ class Solution:
                 return
 
             current_digit = digits[index]
+            
             for char in numToStr[current_digit]:
                 dfs(index + 1, path + char)
 
