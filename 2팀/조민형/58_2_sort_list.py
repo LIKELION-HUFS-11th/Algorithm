@@ -17,10 +17,12 @@ class Solution:
         
         #옮겨갈 헤드용이랑 나중에 리턴할 헤드 선언
         head = ListNode(0)
+        #나중에 리턴할 용도의 헤드
         copy_head = head
 
         #정렬된 리스트를 돌면서 순서대로 연결리스트 연결시키기
         for val in newlist:
+            # 새로 연결된 리스트의 next는 다음번에 갱신됨. 아직은 None
             head.next = ListNode(val)
             head = head.next
         
