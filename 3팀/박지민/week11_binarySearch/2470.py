@@ -17,7 +17,6 @@ while start < end:
         result = [values[start], values[end]]
     # 합이 0보다 작으면 시작점 조정
     if take < 0:
-        # 
         start += 1
     # 합이 0보다 크면 끝점 조정
     elif take > 0:
@@ -27,8 +26,5 @@ while start < end:
         break
 
 print(result[0],result[1])
-
-
-
-
- 
+    
+    
