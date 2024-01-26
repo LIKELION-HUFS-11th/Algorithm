@@ -32,9 +32,11 @@ class Solution:
 #         result = []
 #         for i in range(len(nums)-k+1):
 #             tempList = nums[i:i+k]
+#             #k가 1일 때(윈도우의 크기가 1)
 #             if k == 1:
 #                 result.append(tempList[0])
-#             #k가 2 이상일 때
+#             #k가 2 이상일 때(윈도우의 크기가 2 이상)
+#             # 처음에는 최댓값을 모르므로 sort를 통해 다 정렬시키고 가장 큰 값과 두번쨰로 큰 값을 따로 선언해놓음
 #             elif i == 0:
 #                 sortedNums = sorted(tempList)
 #                 maxNum = sortedNums[-1]
@@ -50,7 +52,7 @@ class Solution:
 #                         result.append(maxNum)
 #                     # 들어온 수가 과거 최댓값과 두번째 큰 수보다 작을 때
 #                     else:
-#                         #두번째 큰 수가 최댓값이 됨
+#                         #두번째 큰 수가 최댓값이 됨 -> 두번쨰 큰 값을 바꿔줘야 하지만 어떤 수인지 모르기 떄문에 다시 정렬해서 저장
 #                         sortedNums = sorted(tempList)
 #                         maxNum = sortedNums[-1]
 #                         secMaxNum = sortedNums[-2]
