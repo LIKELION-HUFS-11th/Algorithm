@@ -3,14 +3,15 @@ class Solution:
         import heapq
 
         heap = []
-        # 키 내림차순으로 정렬해서 push하기
+        #내림차순 정렬 heappush
         for i in people:
             heapq.heappush(heap,(-i[0],i[1]))
         
         result = []
-        # 내림차순으로 된 heap에서 하나씩 빼가면서 해당 위치에 끼워넣기
         while heap:
+            #하나씩 큰 순서부터 작은 순서까지 앞에서 빼내기
             person = heapq.heappop(heap)
-            result.append(person)
-            print(result)
+            #결과 리스트에 위치대로 넣어주기
+            result.insert(person[1], [-person[0],person[1]])
+        return result
         
