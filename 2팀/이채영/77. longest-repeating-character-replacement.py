@@ -6,63 +6,63 @@ class Solution(object):
         :rtype: int
         """
         # 예외 case : [ABBB]
-        # global end
+        global end
 
-        # def find_max_str(blank, char, index):
-        #     global end #전역변수: 양쪽에 모두 붙여야 함
-        #     if index > len(s)-1:
-        #         print("1 and ", end)
-        #         return
+        def find_max_str(blank, char, index):
+            global end #전역변수: 양쪽에 모두 붙여야 함
+            if index > len(s)-1:
+                print("1 and ", end)
+                return
 
-        #     if s[index] == char:
-        #         end = index
-        #         print("4 wow")
-        #         find_max_str(blank, char, index+1)
-        #     else:
-        #         if blank > 0: #바꿀 수 있는 기회가 남아있음
-        #             end = index
-        #             print("3 wow")
-        #             find_max_str(blank-1, char, index+1)
-        #         elif blank == 0: #최대길이에 도달
-        #             print("2 and ", end)
-        #             return
+            if s[index] == char:
+                end = index
+                print("4 wow")
+                find_max_str(blank, char, index+1)
+            else:
+                if blank > 0: #바꿀 수 있는 기회가 남아있음
+                    end = index
+                    print("3 wow")
+                    find_max_str(blank-1, char, index+1)
+                elif blank == 0: #최대길이에 도달
+                    print("2 and ", end)
+                    return
    
                     
-        # # global end
-        # max_str = 0
-        # for i in range(len(s)):
-        #     blank = 0
-        #     if i == 0:
-        #         start, end = 0, 0
-        #         for j in range(i+1, len(s)):
-        #             if s[j] == s[i]:
-        #                 end = j
-        #                 break
-        #             else:
-        #                 blank += 1 
-        #     elif i > (len(s)-1-max_str): #index out of range 대비
-        #         return max_str
-        #     else:
-        #         start, end = i, i + max_str - 1 #여기서 end=최소end
-        #         for j in range(i+1, end+1):
-        #             if s[j] != s[i]:
-        #                 blank += 1
+        # global end
+        max_str = 0
+        for i in range(len(s)):
+            blank = 0
+            if i == 0:
+                start, end = 0, 0
+                for j in range(i+1, len(s)):
+                    if s[j] == s[i]:
+                        end = j
+                        break
+                    else:
+                        blank += 1 
+            elif i > (len(s)-1-max_str): #index out of range 대비
+                return max_str
+            else:
+                start, end = i, i + max_str - 1 #여기서 end=최소end
+                for j in range(i+1, end+1):
+                    if s[j] != s[i]:
+                        blank += 1
 
 
-        #     if end == 0: #i = 1일때 같은 문자가 하나도 없다면
-        #         max_str = k + 1
+            if end == 0: #i = 1일때 같은 문자가 하나도 없다면
+                max_str = k + 1
 
-        #     elif blank <= k: #max_len 갱신 가능
-        #         find_max_str(k-blank, s[start], end+1)
-        #         length = end - start + 1
+            elif blank <= k: #max_len 갱신 가능
+                find_max_str(k-blank, s[start], end+1)
+                length = end - start + 1
                 
-        #         max_str = max(max_str, length)
-        #     else:
-        #         continue
+                max_str = max(max_str, length)
+            else:
+                continue
 
-        #     print("max_str is ", max_str)
+            print("max_str is ", max_str)
                 
-        # return max_str
+        return max_str
     
 
         #####sol2
