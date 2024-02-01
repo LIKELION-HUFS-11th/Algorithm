@@ -57,7 +57,7 @@ print(result)
 
 #         interval_eaten.remove(data[start])
 #         interval_count -= 1
-#         start += 1
+#         start += 1 
 #     end -= 1
 
 # print(max_type)
