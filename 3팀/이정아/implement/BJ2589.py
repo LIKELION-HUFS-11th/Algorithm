@@ -16,8 +16,6 @@ def bfs(a, b):
                 q.append((nx, ny))
                 arr[nx][ny] = arr[x][y] + 1
                 visited[nx][ny] = True
-        if arr[nx][ny] == n+m-2:
-            break
         
     return max(map(max, arr))
                 
