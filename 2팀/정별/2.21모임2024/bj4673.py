@@ -2,7 +2,7 @@
 # 원인이 되는게 없는 애들. 최초임.
 
 
-def init(n): #셀프 넘버 구하는 함수 먼저
+def init(n): #첫 함수 먼저
     ans = n
     while n != 0:
         ans += n%10
