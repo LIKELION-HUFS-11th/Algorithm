@@ -18,7 +18,7 @@ for i in range(T):
     start_x, start_y, end_x, end_y = map(int, sys.stdin.readline().split())
     # 행성 개수 받기
     planet = int(sys.stdin.readline())
-    # 행성 개수만큼 행성 좌ㅛ 받기
+    # 행성 개수만큼 행성 좌표 받기
     result = 0
     for j in range(planet):
         planet_x, planet_y, r = map(int,sys.stdin.readline().split())
