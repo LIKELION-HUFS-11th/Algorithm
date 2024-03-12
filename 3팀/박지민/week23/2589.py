@@ -39,7 +39,7 @@ for i in range(n):
     for j in range(m):
         if graph[i][j] == "L":
             distance = [[-1] * m for _ in range(n)]
-            distance[i][j] = 0
+            distance[i][j] = 0 # 탐색 시작 지점을 0으로 설정
             bfs(i,j)
 
 print(ans)
