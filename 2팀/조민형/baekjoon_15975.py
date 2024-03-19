@@ -20,9 +20,3 @@ for i in color_loc:
                 result += color_loc[i][j+1] - color_loc[i][j]
             else: result += color_loc[i][j] - color_loc[i][j-1]
 print(result)
-    
-    
-
-    
-    
-    
