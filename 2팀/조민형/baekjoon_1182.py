@@ -10,6 +10,7 @@ def subset(index, sum):
     # 부분수열의 index 받아서 N개만큼이면
     if index >= N:
         return
+    
     # 부분수열에서 추가된 값 더하기
     sum += sequence[index]
 
