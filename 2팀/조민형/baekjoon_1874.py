@@ -32,6 +32,8 @@ if is_possible:
         print(j)
 else:
     print("NO")
+
+    
 # import sys
 
 # n = int(sys.stdin.readline())
