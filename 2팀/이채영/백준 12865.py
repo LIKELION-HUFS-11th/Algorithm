@@ -18,7 +18,7 @@ i/w |0   1   2   3   4   5   6   7
 
 case1) 현재 짐을 넣음
 case2) 현재 짐을 넣지 않음
-DP[i][w] = max(DP[i-1][k-w[i]] + v[i], DP[i-1][k])
+DP[i][w] = max(DP[i-1][w-w[i]] + v[i], DP[i-1][w])
 
 최종 = DP[n-1][k]
 
