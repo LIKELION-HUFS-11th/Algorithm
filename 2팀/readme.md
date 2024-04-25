@@ -5,4 +5,4 @@
 - 서희 : 
 - 정아 : https://www.acmicpc.net/problem/1916
 - 채영 : 
-- 별 : 
+- 별 : https://www.acmicpc.net/problem/2644
