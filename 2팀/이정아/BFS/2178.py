@@ -20,4 +20,5 @@ def bfs(x, y):
                 q.append((xxx, yyy))
 
 bfs(0, 0)
+print(maze)
 print(maze[n-1][m-1])
