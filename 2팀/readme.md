@@ -8,3 +8,19 @@
 - 정아 : https://www.acmicpc.net/problem/1916
 - 채영 : https://www.acmicpc.net/problem/9465
 - 별 : https://www.acmicpc.net/problem/2644
+
+### 5/8
+- 서희 : 
+- 정아 : 
+- 채영 : 
+- 별 :
+
+
+
+-----
+format
+### 5/8
+- 서희 : 
+- 정아 : 
+- 채영 : 
+- 별 : 
