@@ -12,7 +12,7 @@
 ### 5/8
 - 서희 : 
 - 정아 : https://www.acmicpc.net/problem/7576
-- 채영 : 
+- 채영 : https://www.acmicpc.net/problem/11578
 - 별 :
 
 
