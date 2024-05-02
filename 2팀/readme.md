@@ -10,7 +10,7 @@
 - 별 : https://www.acmicpc.net/problem/2644
 
 ### 5/8
-- 서희 : 
+- 서희 : https://www.acmicpc.net/problem/1946
 - 정아 : https://www.acmicpc.net/problem/7576
 - 채영 : https://www.acmicpc.net/problem/11578
 - 별 : https://www.acmicpc.net/problem/2168
