@@ -13,7 +13,8 @@
 - 서희 : 
 - 정아 : https://www.acmicpc.net/problem/7576
 - 채영 : https://www.acmicpc.net/problem/11578
-- 별 :
+- 별 : https://www.acmicpc.net/problem/2168
+      https://www.acmicpc.net/problem/1913
 
 
 
