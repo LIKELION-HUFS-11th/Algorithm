@@ -11,7 +11,7 @@
 
 ### 5/8
 - 서희 : https://www.acmicpc.net/problem/1946
-- 정아 : https://www.acmicpc.net/problem/7576
+- 정아 : https://www.acmicpc.net/problem/7576 https://www.acmicpc.net/problem/2667
 - 채영 : https://www.acmicpc.net/problem/11578
 - 별 : https://www.acmicpc.net/problem/2168
       https://www.acmicpc.net/problem/1913
