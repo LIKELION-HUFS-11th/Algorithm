@@ -7,7 +7,7 @@ dp
 ...cards[1][i-2] / cards[1][i-1] / cards[1][i]
 
 DP[i][j] = i열 j행 스티커를 마지막으로 골랐을 때의 최대 가지
-DP[i][0]의 직전cases
+DP[0][i]의 직전cases
 1) cards[1][i-1] -> cards[0][i]
 2) cards[1][i-2] -> cards[0][i]
 
