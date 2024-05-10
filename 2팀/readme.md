@@ -19,7 +19,7 @@
 
 ### 5/14
 
-- 서희 :
+- 서희 : https://www.acmicpc.net/problem/2467
 - 정아 : https://www.acmicpc.net/problem/1074 https://www.acmicpc.net/problem/11660
 - 채영 : https://www.acmicpc.net/problem/3980
 - 별 : https://www.acmicpc.net/problem/2251
