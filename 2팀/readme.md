@@ -22,7 +22,7 @@
 - 서희 :
 - 정아 :
 - 채영 : https://www.acmicpc.net/problem/3980
-- 별 :
+- 별 : https://www.acmicpc.net/problem/2251
 
 ---
 
