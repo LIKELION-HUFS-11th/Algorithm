@@ -2,12 +2,12 @@
 
 문제난이도 : 실3 ~ 골5
 
-### 5/1
+### 5/14
 
-- 서희 : https://www.acmicpc.net/problem/2225
-- 정아 : https://www.acmicpc.net/problem/1916
-- 채영 : https://www.acmicpc.net/problem/9465
-- 별 : https://www.acmicpc.net/problem/2644
+- 서희 : https://www.acmicpc.net/problem/2467
+- 정아 : https://www.acmicpc.net/problem/1074 https://www.acmicpc.net/problem/11660
+- 채영 : https://www.acmicpc.net/problem/3980
+- 별 : https://www.acmicpc.net/problem/2251
 
 ### 5/8
 
@@ -17,12 +17,12 @@
 - 별 : https://www.acmicpc.net/problem/2168
   https://www.acmicpc.net/problem/1913
 
-### 5/14
+### 5/1
 
-- 서희 : https://www.acmicpc.net/problem/2467
-- 정아 : https://www.acmicpc.net/problem/1074 https://www.acmicpc.net/problem/11660
-- 채영 : https://www.acmicpc.net/problem/3980
-- 별 : https://www.acmicpc.net/problem/2251
+- 서희 : https://www.acmicpc.net/problem/2225
+- 정아 : https://www.acmicpc.net/problem/1916
+- 채영 : https://www.acmicpc.net/problem/9465
+- 별 : https://www.acmicpc.net/problem/2644
 
 ---
 
