@@ -8,7 +8,6 @@ g: 스타트링크의 층 수(타겟 층수)
 u: 위로 u층 만큼  
 d: 아래로 d층 만큼  
 """  
-sys.stdin = open("5014_스타트링크_input.txt", "r")  
 f, s, g, u, d = map(int, sys.stdin.readline().split())  
 check = [0 for _ in range(f + 1)]  # 층수별로 지금까지 방문한 층 개수 저장
 
