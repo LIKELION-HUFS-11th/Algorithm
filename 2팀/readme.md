@@ -2,6 +2,13 @@
 
 문제난이도 : 실3 ~ 골5
 
+### 5/29 수
+
+- 서희 :
+- 정아 :
+- 채영 :
+- 별 :
+
 ### 5/22 수 19시
 
 - 서희 : https://www.acmicpc.net/problem/4963 https://www.acmicpc.net/problem/2096
