@@ -2,7 +2,7 @@
 
 문제난이도 : 실3 ~ 골5
 
-### 5/29 수
+### 5/30 목 20시
 
 - 서희 : https://www.acmicpc.net/problem/6236 https://www.acmicpc.net/problem/1697
 - 정아 :
