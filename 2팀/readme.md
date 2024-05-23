@@ -4,7 +4,7 @@
 
 ### 5/29 수
 
-- 서희 :
+- 서희 : https://www.acmicpc.net/problem/6236 https://www.acmicpc.net/problem/1697
 - 정아 :
 - 채영 :
 - 별 :
