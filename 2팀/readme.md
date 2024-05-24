@@ -6,7 +6,7 @@
 
 - 서희 : https://www.acmicpc.net/problem/6236 https://www.acmicpc.net/problem/1697
 - 정아 : https://www.acmicpc.net/problem/1759 https://www.acmicpc.net/problem/18405
-- 채영 :
+- 채영 : https://www.acmicpc.net/problem/1394 https://www.acmicpc.net/problem/1890
 - 별 :
 
 ### 5/22 수 19시
