@@ -2,6 +2,13 @@
 
 문제난이도 : 실3 ~ 골5
 
+### 5/30 목 19시
+
+- 서희 : https://www.acmicpc.net/problem/6236 https://www.acmicpc.net/problem/1697
+- 정아 : https://www.acmicpc.net/problem/1759 https://www.acmicpc.net/problem/18405
+- 채영 : https://www.acmicpc.net/problem/1394 https://www.acmicpc.net/problem/1890
+- 별 : https://www.acmicpc.net/problem/1083
+
 ### 5/22 수 19시
 
 - 서희 : https://www.acmicpc.net/problem/4963 https://www.acmicpc.net/problem/2096
