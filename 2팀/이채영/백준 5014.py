@@ -29,7 +29,7 @@ def bfs():
                 if (0 < x <= f) and check[x] == 0:  #방문한 적 없는 층이어야 함
                     check[x] = check[y] + 1  
                     queue.append(x)  
-
+                    
     return "use the stairs"  #큐가 모두 종료될때까지 실행하면 use the stairs
 
 
