@@ -2,6 +2,11 @@
 
 문제난이도 : 실3 ~ 골5
 
+### 6/11 화 19시
+
+- 정아 : https://www.acmicpc.net/problem/11729 https://www.acmicpc.net/problem/9251
+- 별 : https://www.acmicpc.net/problem/21317  https://www.acmicpc.net/problem/1629
+
 ### 5/30 목 19시
 
 - 서희 : https://www.acmicpc.net/problem/6236 https://www.acmicpc.net/problem/1697
@@ -44,7 +49,7 @@ format
 
 ### 5/8
 
-- 서희 :
-- 정아 :
-- 채영 :
-- 별 :
+- 서희 : 
+- 정아 : 
+- 채영 : 
+- 별 : 
