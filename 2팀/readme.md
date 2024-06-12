@@ -5,7 +5,7 @@
 ### 6/19 수 19시
 
 - 정아 : https://www.acmicpc.net/problem/1325 https://www.acmicpc.net/problem/1360
-- 별 : 
+- 별 : https://www.acmicpc.net/problem/1992  https://www.acmicpc.net/problem/2668
 
 ### 6/11 화 19시
 
