@@ -1,6 +1,6 @@
 '''
 https://study-all-night.tistory.com/6
-[재귀]
+[재귀]x
 '''
 
 def hanoi_tower(n, start, end) :
