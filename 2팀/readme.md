@@ -6,7 +6,7 @@
 
 - 정아 : https://www.acmicpc.net/problem/4307
 - 채영 : 
-- 별 : 
+- 별 : https://www.acmicpc.net/problem/10026  https://www.acmicpc.net/problem/1922
 
 ### 6/20 목 16시
 
