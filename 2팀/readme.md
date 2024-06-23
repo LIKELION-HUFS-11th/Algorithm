@@ -4,7 +4,7 @@
 
 ### 6/27 목 16시
 
-- 정아 : https://www.acmicpc.net/problem/4307 https://www.acmicpc.net/problem/1068
+- 정아 : https://www.acmicpc.net/problem/4307
 - 채영 : 
 - 별 : 
 
