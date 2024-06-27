@@ -4,7 +4,7 @@ prices.extend(list(map(int, input().split())))
     
 dp = [0]
 dp.extend([prices[1]*i for i in range(1, n+1)])
-# print(dp, prices)
+print(dp, prices)
 
 for i in range(2, n+1):
     for j in range(i, n+1):
