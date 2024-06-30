@@ -2,6 +2,11 @@
 
 문제난이도 : 실3 ~ 골5
 
+### 7/9 화 16시
+
+- 정아 :
+- 별 : https://www.acmicpc.net/problem/17103  https://www.acmicpc.net/problem/15681  https://www.acmicpc.net/problem/1932
+
 ### 6/27 목 16시
 
 - 정아 : https://www.acmicpc.net/problem/4307
