@@ -5,7 +5,7 @@
 ### 7/9 화 16시
 
 - 정아 : https://www.acmicpc.net/problem/14891 https://www.acmicpc.net/problem/1389 https://www.acmicpc.net/problem/1747
-- 별 : https://www.acmicpc.net/problem/17103  https://www.acmicpc.net/problem/15681  https://www.acmicpc.net/problem/1932
+- 별 : https://www.acmicpc.net/problem/17103  https://www.acmicpc.net/problem/15681
 
 ### 6/27 목 16시
 
