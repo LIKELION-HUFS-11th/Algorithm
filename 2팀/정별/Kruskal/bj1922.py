@@ -39,5 +39,3 @@ for c, a, b in edges:
 print(ans)
 
 
-    
-    
