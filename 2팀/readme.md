@@ -4,12 +4,12 @@
 
 ### 7/24 수 16시
 
-- 정아 : 
-- 별 : 
+- 정아 : https://www.acmicpc.net/problem/2493 https://www.acmicpc.net/problem/2470 https://www.acmicpc.net/problem/14891
+- 별 : https://www.acmicpc.net/problem/1932
 
 ### 7/9 화 16시
 
-- 정아 : https://www.acmicpc.net/problem/14891 https://www.acmicpc.net/problem/1389 https://www.acmicpc.net/problem/1747
+- 정아 : https://www.acmicpc.net/problem/1389 https://www.acmicpc.net/problem/1747
 - 별 : https://www.acmicpc.net/problem/17103  https://www.acmicpc.net/problem/15681
 
 ### 6/27 목 16시
