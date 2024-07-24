@@ -15,4 +15,4 @@ for i in range(2, n+1):
 #     for j in range(1, i+1):
 #         prices[i] = max(prices[i], prices[j]+prices[i-j])
 
-print(prices[-1])
+print(dp[-1])
