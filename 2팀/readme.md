@@ -4,7 +4,7 @@
 
 ### 7/31 수 16시
 
-- 정아(2) : 
+- 정아(2) : https://www.acmicpc.net/problem/2564 https://www.acmicpc.net/problem/2166
 - 별(3) : 
 
 ### 7/24 수 16시
