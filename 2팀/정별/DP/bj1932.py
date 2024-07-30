@@ -16,7 +16,7 @@ else:
         nTri[i].extend([0] * (n+1-i))
 
     nTri[-1].extend([0 for _ in range(n+1)])
-    # print(nTri)
+    print(nTri)
 
     dp = nTri
 
